@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <form action="#">
+                    <div class="form-group">
+                        <select id="recipe" class="form-control">
+                            <option value="" disabled selected>Choose Recipe</option>
+                            <option value="1">Avocado Shake (Toek KaLok)</option>
+                            <option value="2">French creps</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="col-3">
+
+            </div>
+        </div>
+<!-- Increasee and Discrease -->
+<div class="container mt-5">
+    <div class="row">
+       <div class="col-3"></div>
+       <div class="col-3"></div>
+       <div class="col-3">
+        <form action="#">
+            <div class="input-group mb-3">
+                <div class="input-group-append">
+                    <button   type="button" class="btn btn-success"  id="discrease" >-</button>  
+                   </div>
+                  <input type="text" class="form-control text-center" value="0" disabled id="input">
+                  <div class="input-group-append">
+                    <button  type="button"  class="btn btn-success" id="increase" >+</button>  
+                   </div>
+                </div>
+         </form>
+         <h1 id="result" class="text-center"></h1>
+       </div>
+       <div class="col-3"></div>
+    </div>
+  </div>
+
+
+<!-- End of Increasee and Discrease -->
+
+
+    </div>
+    <hr>
+    <div class="row mt-5">
+        <div class="col-3"></div>
+        <div class="col-3 text-center">
+            <h2 id="text"></h2>
+        </div>
+        <div class="col-3" id="card">
+
+        </div>
+        <div class="col-3"></div>
+
+    </div>
+    </div>
+    <div class="container">
+        
+        <div class="row mt-5">
+            <div class="col-3">
+                <table class="table table-borderless" id="tables"></table>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/project.js"></script>
+</body>
+
+</html>
