@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+}
+#line {
+    border-left: 2px solid;
+    height: 400px;
+    position: absolute;
+    left: 40%;
+    color: gray;
+    margin-left: 100px;
+   
+}
+#recipeandstep{
+    margin-left: 100px;
+}
+#stepToDo{
+    margin-left: 100px;
+}
+#img{
+    margin-top: 100px;
+}
