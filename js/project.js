@@ -66,7 +66,7 @@ var getEachRecipe = (name, img) => {
     $('#nameOfRecipe').html(result);
     var results = "";
     results += `
-        <img src="${img}" width="150"> <br><br>
+        <img src="${img}" width="300"> <br><br>
     `;
     // Increase and Discrese
     $(document).ready(function () {
@@ -107,7 +107,7 @@ function getIngrdient(ingrediant) {
     ingrediant.ingredients.forEach(element => {
         result += `
     <tr>
-       <td><img src="${element.iconUrl}" width="90" class="img-fluid"></td>
+       <td><img src="${element.iconUrl}" width="100" class="img-fluid" ></td>
        <td>${element.quantity}</td>
        <td>${element.unit[0]}</td>
        <td>${element.name}</td>
@@ -165,7 +165,7 @@ function getNewQuility(person){
         newQuantity = defualtquantity*person;
          result +=`
          <tr>
-         <td><img src="${item.iconUrl}" width="90" class="img-fluid"></td>
+         <td><img src="${item.iconUrl}" width="150" class="img-fluid"></td>
          <td>${newQuantity}</td>
          <td>${item.unit[0]}</td>
          <td>${item.name}</td>
